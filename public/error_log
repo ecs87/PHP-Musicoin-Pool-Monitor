@@ -1,0 +1,241 @@
+[13-Oct-2017 02:29:06 UTC] PHP Warning:  require(/home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/index.php on line 24
+[13-Oct-2017 02:29:07 UTC] PHP Fatal error:  require(): Failed opening required '/home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/../vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/index.php on line 24
+[13-Oct-2017 02:29:10 UTC] PHP Warning:  require(/home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/index.php on line 24
+[13-Oct-2017 02:29:10 UTC] PHP Fatal error:  require(): Failed opening required '/home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/../vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/index.php on line 24
+[13-Oct-2017 02:29:15 UTC] PHP Warning:  require(/home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/index.php on line 24
+[13-Oct-2017 02:29:15 UTC] PHP Fatal error:  require(): Failed opening required '/home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/../vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/index.php on line 24
+[13-Oct-2017 02:29:21 UTC] PHP Warning:  require(/home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/index.php on line 24
+[13-Oct-2017 02:29:23 UTC] PHP Fatal error:  require(): Failed opening required '/home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/../vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/index.php on line 24
+[13-Oct-2017 02:29:28 UTC] PHP Warning:  require(/home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/index.php on line 24
+[13-Oct-2017 02:29:29 UTC] PHP Fatal error:  require(): Failed opening required '/home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/../vendor/autoload.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/public/index.php on line 24
+[13-Oct-2017 12:44:35 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:45:08 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:45:09 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:45:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:45:11 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:45:15 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:45:44 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:45:45 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:45:46 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:45:47 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:45:59 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:46:00 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:46:01 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:46:01 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:46:02 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:46:27 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:46:27 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:46:28 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:46:33 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:46:51 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:46:52 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:47:21 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:48:15 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:48:16 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:48:36 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:48:37 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:48:38 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:48:44 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:48:45 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:48:50 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:48:51 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:48:59 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[13-Oct-2017 12:49:07 UTC] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('config')
+#1 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('config')
+#2 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('config', Array)
+#3 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(721): Illuminate\Container\Container->make('config', Array)
+#4 /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminat in /home/cardinalsmith/public_html/eSmithLaravel/MHMCMonitor/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
