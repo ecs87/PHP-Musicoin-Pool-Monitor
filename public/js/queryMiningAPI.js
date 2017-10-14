@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
 	var api_key = $("input[type='text']").val();
 	var incoming = null;
-	var price_per_MC = 0;
+	var showAlert = true;
 	//model
 	var sendAPIcall = function(targetURL, jsonP, callback) {
 		if (jsonP == false) {
@@ -24,9 +24,10 @@ jQuery(document).ready(function($) {
 					return callback(false, data);
 				},
 				error: function() {
-					alert("ERROR: Please check your API key and try again.");
+					if (showAlert == true)
+						alert("ERROR: Please check your API key and try again.");
 					$(".entry-content img").hide();
-					return callback(false, false);
+					showAlert = false;
 				}
 			});
 		}
@@ -36,18 +37,15 @@ jQuery(document).ready(function($) {
 		if (outgoing == true)
 			sendAPIcall("https://api.coinmarketcap.com/v1/ticker/musicoin/?convert=USD", false, getMUSIC_USDprice);
 		else {
-			if (incoming == false)
-				return false;
 			price_per_MC = Math.round(incoming[0]["price_usd"] * 10000) / 10000;
 			$(".entry-header h2 b:first-child").html("$"+price_per_MC);
+			getMUSIC_DBData(true, null); //this is here only because it needs the price pulled before running
 		}
 	}
 	function getMUSIC_difficulty(outgoing, incoming) {
 		if (outgoing == true)
 			sendAPIcall("https://musicoin.miningpoolhub.com/index.php?page=api&action=getdifficulty&api_key=" + api_key, true, getMUSIC_difficulty);
 		else {
-			if (incoming == false)
-				return false;
 			var MC_difficulty = Math.round(incoming["getdifficulty"]["data"] / 1000000).toLocaleString();
 			$(".entry-header h2 b.current-diff").html(MC_difficulty + "M");
 		}
@@ -57,8 +55,6 @@ jQuery(document).ready(function($) {
 		if (outgoing == true)
 			sendAPIcall("https://musicoin.miningpoolhub.com/index.php?page=api&action=getdashboarddata&api_key=" + api_key, true, getMUSIC_DBData);
 		else {
-			if (incoming == false)
-				return false;
 			var confirmed_bal = incoming['getdashboarddata']['data']['balance']['confirmed'];
 			$(".mus-balanceConf.stats-box div").html(confirmed_bal);
 			var unconfirmed_bal = incoming['getdashboarddata']['data']['balance']['unconfirmed'];
@@ -77,8 +73,6 @@ jQuery(document).ready(function($) {
 		if (outgoing == true)
 			sendAPIcall("https://musicoin.miningpoolhub.com/index.php?page=api&action=getuserworkers&api_key=" + api_key, true, getMUSIC_userWorkers);
 		else {
-			if (incoming == false)
-				return false;
 			$(".workers-wrapper").empty();
 			for (var i = 0; i < incoming["getuserworkers"]["data"].length; i++) {
 		    if (incoming["getuserworkers"]["data"][i]["monitor"] == 1) {
@@ -90,11 +84,10 @@ jQuery(document).ready(function($) {
 		}
 	}
 	function getMUSIC_runner() {
-		if (getMUSIC_USDprice(true, null) != false)
-			if (getMUSIC_difficulty(true, null) != false)
-				if (getMUSIC_DBData(true, null) != false)
-					if (getMUSIC_userWorkers(true, null) != false)
-						console.log('API calls completed');
+		getMUSIC_USDprice(true, null);
+		getMUSIC_difficulty(true, null);
+		getMUSIC_userWorkers(true, null);
+		console.log('API calls completed');
 	}
 	//init
 	function main(assignedInterval) {
