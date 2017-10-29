@@ -2,6 +2,7 @@ jQuery(document).ready(function($) {
 	var api_key = $("input[type='text']").val();
 	var incoming = null;
 	var showAlert = true;
+	
 	//model
 	var sendAPIcall = function(targetURL, jsonP, callback) {
 		if (jsonP == false) {
@@ -25,13 +26,14 @@ jQuery(document).ready(function($) {
 				},
 				error: function() {
 					if (showAlert == true)
-						alert("ERROR: Please check your API key and try again.");
+						APIErrorMessage("ERROR with MiningHubPool API or your API Key. Please double check your API Key and try again.");
 					$(".entry-content img").hide();
 					showAlert = false;
 				}
 			});
 		}
 	};
+	
 	//views
 	function getMUSIC_USDprice(outgoing, incoming) {
 		if (outgoing == true)
@@ -42,6 +44,7 @@ jQuery(document).ready(function($) {
 			getMUSIC_DBData(true, null); //this is here only because it needs the price pulled before running
 		}
 	}
+	
 	function getMUSIC_difficulty(outgoing, incoming) {
 		if (outgoing == true)
 			sendAPIcall("https://musicoin.miningpoolhub.com/index.php?page=api&action=getdifficulty&api_key=" + api_key, true, getMUSIC_difficulty);
@@ -69,6 +72,7 @@ jQuery(document).ready(function($) {
 			$(".mus-yearlyProfits.stats-box div").html("$" + Math.round(((recent_credits_24hours * price_per_MC) * 365) * 100)/100);
 		}
 	}
+	
 	function getMUSIC_userWorkers(outgoing, incoming) {
 		if (outgoing == true)
 			sendAPIcall("https://musicoin.miningpoolhub.com/index.php?page=api&action=getuserworkers&api_key=" + api_key, true, getMUSIC_userWorkers);
@@ -83,12 +87,18 @@ jQuery(document).ready(function($) {
 			}
 		}
 	}
+	
+	function APIErrorMessage(errorMessage) {
+		$('.entry-header').prepend('<h3 style="color: #F00">'+errorMessage+'</h3>');
+	}
+	
 	function getMUSIC_runner() {
 		getMUSIC_USDprice(true, null);
 		getMUSIC_difficulty(true, null);
 		getMUSIC_userWorkers(true, null);
 		console.log('API calls completed');
 	}
+	
 	//init
 	function main(assignedInterval) {
 		setInterval(function() {
